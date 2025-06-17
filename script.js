@@ -15,7 +15,6 @@ function secondHighest(arr) {
     }
   }
 
-  // If all elements are same, second will remain -Infinity
+  // If second remains -Infinity, that means there's no valid second highest
   return second;
 }
-
